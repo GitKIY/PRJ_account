@@ -29,6 +29,6 @@ public class Starter {
         if (acc1.canUndo()) acc1.undo();
         System.out.println(acc1.toString());
         System.out.println(acc1.savedAcc.toString()+"<------ Сохраненное значение");
-
+        System.out.println("----------");
     }
 }
